@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81193825-6A53-0D2B-3E95-0287BAABF722" name="T_USUARIO">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:39:55 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="A31B5D0B-0A78-5828-6D3A-2819A4EC58D3">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:09 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_login" id="6F7F0152-0B08-86C0-9FCE-2CA84D306733">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:18 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="74695FA1-5F3C-ED42-F661-FEB09BCAEA2B">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:26 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nome" id="29C78260-FE8C-D75D-C8B6-78C5F7B3B06B">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:33 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sobrenome" id="9FCE2AF8-B4FC-145F-D5BE-2EE029A4219D">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:39 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="C046EB5D-936E-8DEB-715F-447F19671C24">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:45 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="A96A6ECB-235D-3067-D334-208860137FE3">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:52 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EDE22D1-5B71-B1F5-C329-541CE759E263" name="T_USUARIO PK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:40:16 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A31B5D0B-0A78-5828-6D3A-2819A4EC58D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

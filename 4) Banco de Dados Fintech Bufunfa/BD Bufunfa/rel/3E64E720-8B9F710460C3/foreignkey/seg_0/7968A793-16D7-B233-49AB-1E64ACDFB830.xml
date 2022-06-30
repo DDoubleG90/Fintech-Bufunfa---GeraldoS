@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7968A793-16D7-B233-49AB-1E64ACDFB830" containerWithKeyObject="4F0D851D-E3AC-EA85-AD39-4BB226D7981B" localFKIndex="C84D17F4-878B-FCD6-25A9-593AB59122D4" name="T_RECEITAS_T_TIPO_RECEITA_FK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>489E2ECE-5B87-F7FE-DEBF-A874583B37F1</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<referredTableLongName>T_TIPO_RECEITA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00FAFF7C-416D-BC53-843D-061E54546A9D</referredTableID>
+<keyObject>D9BF35EE-BEE3-117A-8604-46BFF80A415D</keyObject>
+<referredKeyID>D9BF35EE-BEE3-117A-8604-46BFF80A415D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_receita</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

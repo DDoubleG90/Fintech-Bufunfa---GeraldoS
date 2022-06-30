@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F0D851D-E3AC-EA85-AD39-4BB226D7981B" name="T_RECEITAS">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>9F2DC386-6B3F-951E-60BD-EB4B328CF926</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_receita" id="054DF237-7095-329B-D46C-6632CEDCCD1F">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>41038AF9-E8C7-8B38-5850-E79284FC224E</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_receita" id="0D75DA8A-4567-9A9F-ABB8-367535B6EC80">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>753949AD-07B6-AFDC-FFC5-0ADA49FB096D</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_receita" id="D4D7B600-4941-5968-06A7-EEA36F851AFA">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>082F4B40-26EC-39A9-0985-40D63FCE49CE</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_receita" id="BDA97807-B157-9792-9159-C4F0DE459A78">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>F66A0035-0EBB-6CA1-353C-8E29663704D8</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_id_usuario" id="A9BF55B0-7D61-21AC-0824-79F0067C44D5">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>6965DF7E-B219-11FD-684D-693748ECC801</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3E9F654-D21E-5A52-1474-197F0692A608" referredColumn="96FBA2C6-4B58-35DE-61E8-FB66E7E328FC"/>
+</associations>
+</Column>
+<Column name="T_TIPO_RECEITA_cd_tipo_receita" id="17C637E5-3DB9-49BC-3F99-9C1838186FF8">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>EB5023E7-5CF7-7754-BD43-BD0C664EDCDE</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7968A793-16D7-B233-49AB-1E64ACDFB830" referredColumn="4DF6BE45-3BE1-57F0-3E99-3B445D3830C7"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="BCB6F338-CBBE-8654-B2BD-DB3EFDF2261E">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:24:20 UTC</createdTime>
+<generatorID>3D672C5A-CD92-887C-1B9B-D66FA730449F</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6BD6666-2E4A-E7A6-A604-2E96B3CAAC61" name="T_RECEITAS_PK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>841A065C-C32F-1961-ABBD-A1FD326A1535</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="054DF237-7095-329B-D46C-6632CEDCCD1F"/>
+<colUsage columnID="BCB6F338-CBBE-8654-B2BD-DB3EFDF2261E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED7C7E2-AE09-6936-DD8C-8BD511464A77" name="T_RECEITAS_T_USUARIO_FK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>0E3BFA34-37DB-018D-B951-226F03192428</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BF55B0-7D61-21AC-0824-79F0067C44D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C84D17F4-878B-FCD6-25A9-593AB59122D4" name="T_RECEITAS_T_TIPO_RECEITA_FK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>489E2ECE-5B87-F7FE-DEBF-A874583B37F1</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C637E5-3DB9-49BC-3F99-9C1838186FF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

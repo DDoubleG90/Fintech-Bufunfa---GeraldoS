@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F2DC386-6B3F-951E-60BD-EB4B328CF926" name="T_RECEITAS">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:42:21 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_receita" id="41038AF9-E8C7-8B38-5850-E79284FC224E">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:42:28 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_receita" id="753949AD-07B6-AFDC-FFC5-0ADA49FB096D">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:42:40 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_receita" id="082F4B40-26EC-39A9-0985-40D63FCE49CE">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:42:46 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_receita" id="F66A0035-0EBB-6CA1-353C-8E29663704D8">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:42:50 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_receita" id="EB5023E7-5CF7-7754-BD43-BD0C664EDCDE">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:45:40 UTC</createdTime>
+<generatorID>489E2ECE-5B87-F7FE-DEBF-A874583B37F1</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<referedAttribute>237E0ACA-068F-153F-7B39-A82C51DE2234</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="3D672C5A-CD92-887C-1B9B-D66FA730449F">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:19:57 UTC</createdTime>
+<generatorID>0E3BFA34-37DB-018D-B951-226F03192428</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<referedAttribute>A31B5D0B-0A78-5828-6D3A-2819A4EC58D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="841A065C-C32F-1961-ABBD-A1FD326A1535" name="T_RECEITAS PK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:42:39 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41038AF9-E8C7-8B38-5850-E79284FC224E</attributeRef>
+<attributeRef>3D672C5A-CD92-887C-1B9B-D66FA730449F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FBBEB68-0C96-23C1-7962-F72685EAAFA6" containerWithKeyObject="47B1C0EB-77A0-606A-4C95-A83D2C1BACE8" localFKIndex="C2021CAB-3FB7-5C18-E49E-01A679C5DD0D" name="T_GASTOS_T_TIPO_GASTO_FK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-21 13:08:02 UTC</createdTime>
+<generatorID>273288E1-6BB6-8982-8FCA-0984DF135885</generatorID>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<referredTableLongName>T_TIPO_GASTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F6E4819-2088-960F-8A9A-06750DC48D12</referredTableID>
+<keyObject>55ACF3C5-FD14-B277-5532-11F195E70090</keyObject>
+<referredKeyID>55ACF3C5-FD14-B277-5532-11F195E70090</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_gasto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

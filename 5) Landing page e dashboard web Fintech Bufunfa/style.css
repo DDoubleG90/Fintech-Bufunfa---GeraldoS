@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body
+{
+    background-color: rgb(86, 115, 81);
+}
+
+div > h1
+{
+    color: rgb(25, 30, 21);
+    display: flex;
+}
+
+img#menu {
+    padding-top: 12px;
+    margin-left: 1em;
+}
+
+img#logo {
+    display: block;
+    margin: 5px auto;
+    padding-top: 25%;
+    padding-bottom: 5em;
+}
+
+.class-logo {
+    display: block;
+    margin: 5px auto;
+}
+
+.class-login{
+    display:grid;
+}
+
+.class-cadastrar{
+    display:grid;
+}
+
+.balanco {
+    display: flex;
+    margin-top: 8em;
+    margin-left: 15em;
+}
+
+.cabecalho-dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 500px;
+    background-color: rgb(68,91,64);
+    margin-left: 0;
+    height:75px;
+}
+
+.cabecalho-menu{
+    padding-bottom: 1em;
+    padding-right: 25px;
+    float: left;
+}
+
+.cabecalho-balanco-texto{
+    text-align: center;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+#dropdownMenuButton1{
+    background-color: rgb(97, 102, 95);
+    border: none;
+}
+
+.balanco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.retanguloGastos{
+    width:120px;
+    height:220px;
+    background:rgb(197, 118, 60);
+    margin-top: 60px;
+    margin-left: -300px;
+}
+
+.retanguloReceitas{
+    width:120px;
+    height:280px;
+    background:rgb(31, 125, 103);
+}
+
+.legenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -100px;
+    font-size: medium
+}
+
+.linha{
+    border-top: 0.4px solid rgb(68,91,64);
+}
+
+#dropdownMenuButton2{
+    background-color: rgb(97, 102, 95);
+    border: none;
+}
+
+.balancoanual{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-end;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.retanguloJan {
+    width:40px;
+    height:220px;
+    background:rgb(197, 118, 60);
+    margin-top: 60px;
+    margin-left: 140px;
+}
+
+.retanguloFev{
+    width:40px;
+    height:140px;
+    background:rgb(197, 118, 60);
+    margin-top: 60px;
+}
+
+.retanguloMar{
+    width:40px;
+    height:180px;
+    background:rgb(197, 118, 60);
+    margin-top: 60px;
+}
+
+.retanguloAbr{
+    width:40px;
+    height:250px;
+    background:rgb(197, 118, 60);
+    margin-top: 60px;
+}
+
+.legenda2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 140px;
+
+}
+
+.rodapedashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width:100%;
+    height:100px;
+    background-color: rgb(68,91,64);
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rodapeindex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width:100%;
+    height:100px;
+    background-color: rgb(68,91,64);
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+

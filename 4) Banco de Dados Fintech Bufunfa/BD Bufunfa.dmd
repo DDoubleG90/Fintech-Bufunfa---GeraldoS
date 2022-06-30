@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD Bufunfa" id="6CB46C50-A888-8BFE-7462-0300ACB357FA" version="3.5">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:39:32 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6CB46C50-A888-8BFE-7462-0300ACB357FA</designId>
+</OSDM_Design>

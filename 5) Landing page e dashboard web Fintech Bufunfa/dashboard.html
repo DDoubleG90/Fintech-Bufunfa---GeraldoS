@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+  <head> </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bufunfa - Controle seus gastos!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header class="cabecalho-dashboard">
+      <div class="cabecalho-menu">
+        <img src="./menu.svg" alt="botao menu" id="menu">
+      </div>
+      <div class="cabecalho-balanco">
+        <h1 class="cabecalho-balanco-texto">Balanço Financeiro</h1>
+      </div>
+    </header>
+
+    <main>
+        <div class="mes">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Mês
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Janeiro</a></li>
+              <li><a class="dropdown-item" href="#">Fevereiro</a></li>
+              <li><a class="dropdown-item" href="#">Março</a></li>
+              <li><a class="dropdown-item" href="#">Abril</a></li>
+              <li><a class="dropdown-item" href="#">Maio</a></li>
+              <li><a class="dropdown-item" href="#">Junho</a></li>
+            </ul>
+        </div>
+        
+        <div class="balanco">
+          <div class="retanguloGastos">
+            <h6>R$ 2.000,00</h6>
+          </div>
+          <div class="retanguloReceitas">
+            <h6>R$ 3.000,00</h6>
+          </div>
+        </div>
+
+        <div class="legenda">
+          <p>Gastos</p>
+          <p>Receitas</p>
+        </div>
+
+        <div class="linha">
+        </div>
+
+        <div class="ano">
+          <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Ano
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">2020</a></li>
+            <li><a class="dropdown-item" href="#">2021</a></li>
+            <li><a class="dropdown-item" href="#">2022</a></li>
+          </ul>
+        </div>
+
+        <div class="balancoanual">
+          <div class="retanguloJan"></div>
+          <div class="retanguloFev"></div>
+          <div class="retanguloMar"></div>
+          <div class="retanguloAbr"></div>
+        </div>
+
+        <div class="legenda2">
+          <p>Jan</p>
+          <p>Fev</p>
+          <p>Mar</p>
+          <p>Abr</p>
+        </div>
+
+    </main>
+    <footer class="rodapedashboard">
+      <h4>Geraldo Oliveira Reis Rabello Sampaio</h4>
+      <h5>Projeto Fintech - FIAP</h5>
+      <h6>28/06/2022</h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

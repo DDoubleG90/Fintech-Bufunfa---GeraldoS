@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5213FBCD-6F9B-9DA9-A84A-C0850C0460CB" name="T_TIPO_RECEITA">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:43:23 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_receita" id="237E0ACA-068F-153F-7B39-A82C51DE2234">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:43:33 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_receita" id="A5A059CE-16F1-C45A-B443-D47C8DEFF37F">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:43:42 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B33E7F06-AE8A-7D82-0B4E-A89C84249D24" name="T_TIPO_RECEITA PK">
+<createdBy>Geraldo</createdBy>
+<createdTime>2022-05-20 13:43:58 UTC</createdTime>
+<ownerDesignName>BD Bufunfa</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3E64E720-8850-7A49-2A3B-8B9F710460C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>237E0ACA-068F-153F-7B39-A82C51DE2234</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
